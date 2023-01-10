@@ -2,9 +2,9 @@
 import { Route,Routes,Link } from "react-router-dom";
 
 import Home from "../Pages/Home";
-import About from "../Pages/About";
-import Skill from "../Pages/Skill";
-import Project from "../Pages/Project";
+import About from "../Pages/About/About";
+import Skill from "../Pages/Skill/Skill";
+import Project from "../Pages/Project/Project";
 import Contact from "../Pages/Contact";
 
 import "./Navbar.css"

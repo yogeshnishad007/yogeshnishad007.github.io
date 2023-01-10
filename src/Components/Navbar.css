@@ -11,6 +11,10 @@
       gap: 20px;
       height: 60px;
       padding: 40px;
+      position: sticky;
+      top: 0;
+      background-color: white;
+    
   }
   
   .level-2{
@@ -85,7 +89,7 @@
   
   
   
-    .btnResume {
+    .Resume {
       background: linear-gradient(to right,  #379689, #05386B);
       color: #EDF5E1;
       --width: 110px;
@@ -108,13 +112,13 @@
       margin-left: 700px;
     }
     
-    .btnResume:hover {
+    .Resume:hover {
       transform: perspective(500px) rotateY(15deg);
       text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
       box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
     }
     
-    .btnResume::before {
+    .Resume::before {
       content: '';
       position: absolute;
       width: 100%;
@@ -124,11 +128,12 @@
       transition: 0.5s;
     }
     
-    .btnResume:hover::before {
+    .Resume:hover::before {
       left: 100%;
     }
   
   
   
   
+  /*==============================================*/
   

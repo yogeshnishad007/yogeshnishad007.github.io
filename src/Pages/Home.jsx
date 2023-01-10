@@ -27,8 +27,8 @@ const Home = () => {
    <div>
     
    </div>
-       <button
-          className="btnResume"
+       {/* <button
+          className="Resume"
           onClick={() => {
             window.open(
               "https://drive.google.com/file/d/1Kn0iGcxuQb-Fe8ZyWxbqb9UP33vyNutV/view?usp=share_link"
@@ -36,7 +36,10 @@ const Home = () => {
           }}
         >
           Resume
-        </button>
+        </button> */}
+
+
+    
     </div>
   )
 }
