@@ -1,0 +1,39 @@
+/* .footer {
+    background-color: var(--dark-color);
+  }
+  
+  .footerContainer {
+    justify-items: center;
+    row-gap: 2rem;
+  }
+  
+  .footerTitle {
+    font-size: var(--normal-font-size);
+    color: var(--white-color);
+    margin-bottom: var(--mb-2);
+    text-align: center;
+  }
+  
+  .footerLink {
+    padding: .25rem 0;
+  }
+  
+  .footerLink:hover {
+    color: var(--first-color);
+  }
+  
+  .footerSocial {
+    font-size: 1.4rem;
+    margin-right: var(--mb-1);
+  }
+  
+  .footerSocial:hover {
+    color: var(--first-color);
+  }
+  
+  .footerCopy{
+    text-align: center;
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+    margin-top: 4rem;
+  } */
