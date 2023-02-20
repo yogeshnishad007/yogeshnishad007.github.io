@@ -192,16 +192,11 @@ export const LinksCont = styled.div`
     margin-left: 100px;
     /* width: 100%; */
     @media (max-width: 795px) {
-        /* width: 100%;
-    text-align: center; */
-        /* margin-bottom: 50px; */
-        /* margin: auto; */
-        /* margin-left: 0; */
-        /* width: 50%; */
-        justify-content: center;
+     
+        margin-left:-250px;
     }
 
     @media (max-width: 600px) {
-        margin-left: 0;
+        margin-left:-350px;
     }
 `;

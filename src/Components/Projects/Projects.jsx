@@ -10,7 +10,6 @@ import {
   BoxDiv
 } from "./Styles";
 import { Container, Common, H1 } from "../../SharedStyles/SharedStyles";
-import { AiFillGithub } from "react-icons/ai";
 import { FaHtml5, FaReact, FaJs, FaCss3 } from "react-icons/fa";
 import {SiNextdotjs } from "react-icons/si";
  
@@ -50,7 +49,7 @@ const Projects = () => {
       image:Time,
       project_desc:
         " Time-Tracking software is a category of computer software that allows its employees to record time spent on tasks or projects. The software is used in many industries, including those who employ freelancers and hourly workers",
-      deploy_link: "https://github.com/Alexfp05405/eminent-art-8078",
+      deploy_link: "https://delicate-lily-d956cc.netlify.app",
       repo_link: "https://github.com/Alexfp05405/eminent-art-8078",
       tech_stack: [
         <FaHtml5 />,
@@ -77,7 +76,7 @@ const Projects = () => {
                     {item.project_name}
                   </ServiceBoxHeader>
                   <ServiceBoxP>{item.project_desc}</ServiceBoxP>
-                  {/* <a href="">Read more</a> */}
+                
                   <div
                     style={{
                       margin: "20px",

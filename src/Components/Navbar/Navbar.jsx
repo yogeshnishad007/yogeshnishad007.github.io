@@ -1,11 +1,7 @@
 import React from "react";
-import { Toggle } from "./Toggle";
 import { NavBarDiv, NavItems, NavItem, Logo } from "./Styles";
 import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
-import {HeaderButtons,A} from "../Header/Styles"
-
-
 
 const menus = [
   { id: 0, name: "Home", css: "home" },
@@ -37,21 +33,23 @@ function Navbar({ themeToggler }) {
             duration={500}
           >
             <NavItem key={item.id}>{item.name}</NavItem>
+                     
           </Link>
         ))}
         
-      </NavItems>
-     
-      {/* <HeaderButtons>
-            <a
+        <NavItem>
+        <a  style={{color:"#373a47"}}
+           activeClass="active"
               target="_blank"
               rel="noopener noreferrer"
               href="https://drive.google.com/file/d/1Kn0iGcxuQb-Fe8ZyWxbqb9UP33vyNutV/view?usp=share_link"
             >
               Resume
+
             </a>
-            </HeaderButtons> */}
-      <Toggle themeToggler={themeToggler} />
+            </NavItem>
+      </NavItems>
+    
     </NavBarDiv>
   );
 }

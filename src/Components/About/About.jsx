@@ -1,6 +1,5 @@
 import React from "react";
 import {  FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiLeetcode ,} from "react-icons/si";
 import {
   AboutDiv,
   Column,
@@ -26,6 +25,8 @@ const socialMediaLinks = [
   }
   
 ];
+
+
 const About = () => {
   return (
     <Container className="about">
@@ -45,12 +46,6 @@ const About = () => {
               Currently, I have frontend skills like HTML, CSS, Javascript,
               React, and also in-depth DSA problem-solving ability.Interested in Yoga and Visiting new places.
               
-            </AboutInfoP>
-            <AboutInfoP>
-              I am adaptable, proficient in remote collaboration, and committed
-              to achieving organizational goals. With a knack for
-              problem-solving and analytics, I am passionate about solving
-              Algorithmic problems with a good hold on Data Structures.
             </AboutInfoP>
           </AboutInfo>
           <HeaderUl>

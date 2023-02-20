@@ -162,9 +162,13 @@ const NavItem = styled.li`
     font-size: 18px;
     padding: 0 15px;
     display: block;
-    &:hover {
-        color: ${(props) => props.theme.socialIconColor};
-    }
+         
+    // &:hover {
+    //     color: rgb(255,55,90);
+        
+    // }
+  
+    
     @media (max-width: 640px) {
         font-size: 16px;
         padding: 0 5px;

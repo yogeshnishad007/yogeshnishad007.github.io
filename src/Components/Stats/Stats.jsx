@@ -1,8 +1,11 @@
 import React from 'react';
-import { Container } from '../../SharedStyles/SharedStyles';
+import { Container,Common,H1 } from '../../SharedStyles/SharedStyles';
 const Stats = () => {
     return (
         <Container>
+            <Common>
+                <H1>Github Calendar</H1>
+            </Common>
             <img
                 src='https://ghchart.rshah.org/021F34/yogeshnishad007'
                 alt='calender'

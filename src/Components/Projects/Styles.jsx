@@ -68,21 +68,3 @@ export const Row = styled.div`
     flex-wrap: wrap;
 `;
 
-// export const Col = styled.div`
-// /* width: 33.33333333333333%; */
-// `;
-// export const CommonDiv = styled.div`
-//   width: 33.33333333333333%;
-//   margin: 20px auto;
-//   text-align: center;`;
-
-// export const MainHeader = styled.h1`
-//   font-size: 32px;
-//   margin-bottom: 20px;
-//   color: ${(props) => props.theme.fontColorPrimary};`
-
-// export const CommonBorder = styled.div`
-//   background: ${(props) => props.theme.commonBorder};
-//   height: 3px;
-//   width: 100px;
-//   margin: 30px auto;`

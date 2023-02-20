@@ -9,7 +9,7 @@ import Contact from '../Components/Contact/Contact';
 import Stats from '../Components/Stats/Stats';
 import Loader from '../Components/Loader/Loader';
 import Footer from '../Components/Foooter/Footer';
-const Home = ({ currentTheme, themeToggler }) => {
+const Home = ({ currentTheme }) => {
     const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
         setIsLoading(true);
@@ -22,7 +22,7 @@ const Home = ({ currentTheme, themeToggler }) => {
         <Loader />
     ) : (
         <div>
-            <Navbar currentTheme={currentTheme} themeToggler={themeToggler} />
+            <Navbar currentTheme={currentTheme}  />
             <Banner />
             <About />
             <Skills />
