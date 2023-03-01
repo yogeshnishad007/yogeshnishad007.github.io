@@ -10,6 +10,10 @@ body {
     font-family: 'Inter', 'sans-serif';
 }
 
+.cursor{
+    background-color:blue;
+}
+
 .app {
     display: flex;
     flex-direction: column;

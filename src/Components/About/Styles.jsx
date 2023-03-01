@@ -12,6 +12,12 @@ export const AboutDiv = styled.div`
     @media (max-width: 768px) {
         margin-top: 250px;
     }
+
+    @media (max-width: 390px) {
+        margin-top: 250px;
+    }
+
+   
 `;
 
 export const Column = styled.div`
@@ -21,6 +27,8 @@ export const Column = styled.div`
         width: 100%;
         text-align: center;
     }
+
+ 
 `;
 
 export const Img = styled.img`
@@ -38,6 +46,12 @@ export const Img = styled.img`
         /* justify-items: center; */
         /* justify-content: center/; */
         /* padding : 0px; */
+    }
+
+    @media (max-width: 390px) {
+        margin-left: -32px; 
+        width: 300px;
+        height: 300px;
     }
 `;
 

@@ -11,7 +11,7 @@ export const HeaderContent = styled.div`
     margin-top: 3em;
 
     @media (max-width: 768px) {
-        padding-top: 150px;
+        padding-top: 20px;
     }
 
     @media (max-width: 640px) {
@@ -28,6 +28,16 @@ export const HeaderContent = styled.div`
 
     @media (max-width: 445px) {
         padding-top: 300px;
+    }
+
+    @media (max-width: 390px) {
+        padding-top: 300px;
+        align-items: center;
+        width: 100%;
+        export const P = styled.p
+        font-size: 20px;
+        margin-bottom: 50px;
+
     }
 `;
 
@@ -51,6 +61,9 @@ export const TypeWriterH1 = styled.h1`
 export const HeaderButtons = styled.div`
     object-fit: cover;
     justify-content: space-between;
+    // @media (max-width:390px){
+    //     justify-content: space-around;
+    // }
 `;
 
 export const P = styled.p`

@@ -185,6 +185,12 @@ export const P = styled.p`
     &:hover {
         color: ${(props) => props.theme.socialIconColor};
     }
+
+
+    @media (max-width: 390px) {
+       
+        font-size: 16px;
+    }
 `;
 
 export const LinksCont = styled.div`
@@ -198,5 +204,11 @@ export const LinksCont = styled.div`
 
     @media (max-width: 600px) {
         margin-left:-350px;
+    }
+
+   
+
+    @media (max-width: 390px) {
+        margin-left:-400px;
     }
 `;

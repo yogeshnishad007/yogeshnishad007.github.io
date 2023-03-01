@@ -5,6 +5,10 @@ export const Container = styled.div`
     padding: 40px 0px;
     /* margin-bottom: 100px; */
     background-color: ${(props) => props.theme.backgroundColor};
+
+    @media (max-width: 390px) {
+        width: 100%;
+    }
 `;
 
 export const Common = styled.div`
@@ -17,4 +21,6 @@ export const H1 = styled.div`
     font-size: 32px;
     margin-bottom: 20px;
     color: ${(props) => props.theme.fontColorHeader};
+
+
 `;

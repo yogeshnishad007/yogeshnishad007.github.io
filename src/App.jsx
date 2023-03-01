@@ -8,7 +8,7 @@ import Contact from './Components/Contact/Contact';
 import PageNotFound from './Components/PageNotFound/PageNotFound';
 import { ThemeProvider } from 'styled-components';
 import Home from './Container/Home';
-import AnimatedCursor from 'react-animated-cursor';
+// import AnimatedCursor from 'react-animated-cursor';
 
 
 const LightTheme = {
@@ -31,14 +31,6 @@ const App = () => {
     return (
         <ThemeProvider theme={themes[currentTheme]}>
             <div className='app'>
-                <AnimatedCursor
-                    innerSize={10}
-                    outerSize={80}
-                    color='0,0,0'
-                    outerAlpha={0.4}
-                    innerScale={0.6}
-                    outerScale={0}
-                />
 
                 <Router>
                     <Switch>

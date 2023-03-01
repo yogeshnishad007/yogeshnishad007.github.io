@@ -3,6 +3,7 @@ import { NavBarDiv, NavItems, NavItem, Logo } from "./Styles";
 import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 
+
 const menus = [
   { id: 0, name: "Home", css: "home" },
   { id: 1, name: "About", css: "about" },
@@ -37,16 +38,18 @@ function Navbar({ themeToggler }) {
           </Link>
         ))}
         
+        
         <NavItem>
         <a  style={{color:"#373a47"}}
-           activeClass="active"
+              activeClass="active"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1Kn0iGcxuQb-Fe8ZyWxbqb9UP33vyNutV/view?usp=share_link"
-            >
+              href="https://drive.google.com/uc?export=download&id=15wigVPQstJhd03pmVkZjWFN-xFLnrjDl"
+              download="fw19_1074-Yogesh-Nishad-Resume.pdf" >
               Resume
 
             </a>
+            
             </NavItem>
       </NavItems>
     

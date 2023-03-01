@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLink } from "react-icons/fa";
+import { FaGithub, FaLink ,FaNode} from "react-icons/fa";
 import {
   ProjectDiv,
   Row,
@@ -17,6 +17,7 @@ import {SiNextdotjs } from "react-icons/si";
 import BabyBliss from "../Images/BabyBliss.png"
 import NatureBasket from "../Images/Basket.png"
 import Time from "../Images/TimeTracking.png"
+import Tata from "../Images/Tata 1mg.png"
 
 
 import { v4 as uuidv4 } from "uuid";
@@ -38,7 +39,7 @@ const Projects = () => {
       project_name: "Nature Basket",
       image:NatureBasket,
       project_desc:
-        " Nature Basket online grocery store has fresh fruits and vegetables,a wide range of breads and other packaged bakery products as well as a range of fresh cheeses from around the world ",
+        "Nature’s Basket is India’s pioneering food destination present through physical retail stores, online portal and a mobile application.",
       deploy_link: "https://rct101project-yogeshnishad007.vercel.app/",
       repo_link: "https://github.com/yogeshnishad007/rabid-veil-7608",
       tech_stack: [<FaHtml5 />, <FaCss3 />, <FaJs />, <FaReact />]
@@ -48,7 +49,7 @@ const Projects = () => {
       project_name: "Time Tracking App",
       image:Time,
       project_desc:
-        " Time-Tracking software is a category of computer software that allows its employees to record time spent on tasks or projects. The software is used in many industries, including those who employ freelancers and hourly workers",
+        "Time-Tracking is record time spent on tasks or projects. The software is used in many industries.",
       deploy_link: "https://delicate-lily-d956cc.netlify.app",
       repo_link: "https://github.com/Alexfp05405/eminent-art-8078",
       tech_stack: [
@@ -56,7 +57,19 @@ const Projects = () => {
         <FaCss3 />,
         <FaJs />
       ]
-    }
+    },
+
+    {
+      id: 4,
+      project_name: "Tata 1mg",
+      image:Tata,
+      project_desc:
+        "1mg.com brings to you an online platform, which can be accessed for all your health needs. We are trying to make healthcare a hassle-free experience for you.",
+      deploy_link: "https://project-medicare-fp24844q1-fullstackcrud.vercel.app",
+      repo_link: "https://github.com/Prakashkumarjena700/Project_Medicare",
+      tech_stack: [<FaHtml5 />, <FaCss3 />, <FaJs />, <FaReact /> ,<FaNode/>]
+    },
+
 
   ];
 

@@ -129,6 +129,7 @@ const NavBarDiv = styled.div`
             right: 10px;
         }
     }
+
 `;
 
 export const NavBarDiv2 = styled.div`
@@ -178,6 +179,11 @@ const NavItem = styled.li`
         font-size: 14px;
         padding: 0 5px;
     }
+    @media (max-width: 390px) {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    
 `;
 
 export { NavBarDiv, NavItems, NavItem, Logo };
