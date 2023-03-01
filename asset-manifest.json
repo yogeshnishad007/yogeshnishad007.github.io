@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.85ade3b9.css",
-    "main.js": "/static/js/main.4667980a.js",
+    "main.css": "/static/css/main.11324f9f.css",
+    "main.js": "/static/js/main.8f3132dc.js",
     "static/css/449.286ef7f3.chunk.css": "/static/css/449.286ef7f3.chunk.css",
-    "static/js/449.4b973f7e.chunk.js": "/static/js/449.4b973f7e.chunk.js",
+    "static/js/449.d8b25b6d.chunk.js": "/static/js/449.d8b25b6d.chunk.js",
     "static/media/Basket.png": "/static/media/Basket.50f38d2dd1240728e537.png",
     "static/media/BabyBliss.png": "/static/media/BabyBliss.bf77a038f15506aa741e.png",
+    "static/media/Tata 1mg.png": "/static/media/Tata 1mg.c24a2961104f7c882c02.png",
     "static/media/TimeTracking.png": "/static/media/TimeTracking.3ce7d79ec7e179591d1b.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "index.html": "/index.html",
-    "main.85ade3b9.css.map": "/static/css/main.85ade3b9.css.map",
-    "main.4667980a.js.map": "/static/js/main.4667980a.js.map",
+    "main.11324f9f.css.map": "/static/css/main.11324f9f.css.map",
+    "main.8f3132dc.js.map": "/static/js/main.8f3132dc.js.map",
     "449.286ef7f3.chunk.css.map": "/static/css/449.286ef7f3.chunk.css.map",
-    "449.4b973f7e.chunk.js.map": "/static/js/449.4b973f7e.chunk.js.map"
+    "449.d8b25b6d.chunk.js.map": "/static/js/449.d8b25b6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85ade3b9.css",
-    "static/js/main.4667980a.js"
+    "static/css/main.11324f9f.css",
+    "static/js/main.8f3132dc.js"
   ]
 }
